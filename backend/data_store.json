@@ -1,0 +1,1753 @@
+{
+  "disasters": [
+    {
+      "id": "usgs-us6000tn41",
+      "name": "215 km NNE of Lospalos, Timor Leste (M6.0)",
+      "sector": "Global Sector",
+      "type": "Earthquake",
+      "riskLevel": "Medium",
+      "riskScore": 74,
+      "lat": -6.6264,
+      "lng": 127.4598,
+      "affectedPopulation": 27000,
+      "severity": 75,
+      "infrastructureDamage": 68,
+      "urgency": 71,
+      "status": "ACTIVE",
+      "source": "USGS Real-time GeoJSON Feed",
+      "sourceEventId": "us6000tn41",
+      "confidence": 99,
+      "detectedAt": "2026-08-24T14:10:17.299Z",
+      "lastUpdatedAt": "2026-08-24T14:36:42.456Z",
+      "country": "International",
+      "state": "International",
+      "dataSourceType": "REAL",
+      "scoreBreakdown": {
+        "severityWeight": 26.25,
+        "populationWeight": 20,
+        "infrastructureWeight": 13.6,
+        "urgencyWeight": 14.2,
+        "hazardFactor": 1.1
+      }
+    },
+    {
+      "id": "d1-uttarakhand-flood",
+      "name": "Uttarakhand Flash Flood Zone",
+      "sector": "Sector 04",
+      "type": "Flash Flood",
+      "riskLevel": "Critical",
+      "riskScore": 96,
+      "lat": 30.0668,
+      "lng": 79.0193,
+      "affectedPopulation": 12400,
+      "severity": 95,
+      "infrastructureDamage": 90,
+      "urgency": 100,
+      "status": "ACTIVE",
+      "source": "Sentinel-1 SAR + CWC River Sensor",
+      "confidence": 96,
+      "detectedAt": "2026-08-24T12:49:56.763Z",
+      "lastUpdatedAt": "2026-08-24T15:49:56.763Z",
+      "country": "India",
+      "state": "Uttarakhand",
+      "district": "Chamoli",
+      "cityArea": "Alaknanda River Basin",
+      "dataSourceType": "DEMO",
+      "scoreBreakdown": {
+        "severityWeight": 33.25,
+        "populationWeight": 25,
+        "infrastructureWeight": 18,
+        "urgencyWeight": 20,
+        "hazardFactor": 1.05
+      }
+    },
+    {
+      "id": "d2-odisha-cyclone",
+      "name": "Odisha Coastal Cyclone Impact",
+      "sector": "Sector 08",
+      "type": "Cyclone Impact",
+      "riskLevel": "High",
+      "riskScore": 91,
+      "lat": 20.9517,
+      "lng": 85.0985,
+      "affectedPopulation": 31000,
+      "severity": 85,
+      "infrastructureDamage": 80,
+      "urgency": 90,
+      "status": "ACTIVE",
+      "source": "INSAT-3DR + Sentinel-2 Optical",
+      "confidence": 93,
+      "detectedAt": "2026-08-24T10:49:56.763Z",
+      "lastUpdatedAt": "2026-08-24T15:49:56.763Z",
+      "country": "India",
+      "state": "Odisha",
+      "district": "Puri & Jagatsinghpur",
+      "cityArea": "Bay of Bengal Coastline",
+      "dataSourceType": "DEMO",
+      "scoreBreakdown": {
+        "severityWeight": 29.75,
+        "populationWeight": 24.5,
+        "infrastructureWeight": 16,
+        "urgencyWeight": 18,
+        "hazardFactor": 1.03
+      }
+    },
+    {
+      "id": "d3-gujarat-landslide",
+      "name": "Gujarat Hill Slope Landslide Risk",
+      "sector": "Sector 12",
+      "type": "Landslide Area",
+      "riskLevel": "Medium",
+      "riskScore": 78,
+      "lat": 22.2587,
+      "lng": 71.1924,
+      "affectedPopulation": 24000,
+      "severity": 70,
+      "infrastructureDamage": 65,
+      "urgency": 75,
+      "status": "ACTIVE",
+      "source": "Cartosat-3 Terrain InSAR",
+      "confidence": 88,
+      "detectedAt": "2026-08-24T03:49:56.763Z",
+      "lastUpdatedAt": "2026-08-24T15:49:56.763Z",
+      "country": "India",
+      "state": "Gujarat",
+      "district": "Gir Somnath / Junagadh",
+      "cityArea": "Western Range",
+      "dataSourceType": "DEMO",
+      "scoreBreakdown": {
+        "severityWeight": 24.5,
+        "populationWeight": 20,
+        "infrastructureWeight": 13,
+        "urgencyWeight": 15,
+        "hazardFactor": 1
+      }
+    },
+    {
+      "id": "d4-kerala-heavyrain",
+      "name": "Kerala Heavy Rainfall & Siltation",
+      "sector": "Sector 15",
+      "type": "Heavy Rainfall",
+      "riskLevel": "Safe",
+      "riskScore": 65,
+      "lat": 10.8505,
+      "lng": 76.2711,
+      "affectedPopulation": 18000,
+      "severity": 50,
+      "infrastructureDamage": 40,
+      "urgency": 50,
+      "status": "ACTIVE",
+      "source": "IMD Doppler Radar + Sentinel-3 OLCI",
+      "confidence": 91,
+      "detectedAt": "2026-08-23T19:49:56.763Z",
+      "lastUpdatedAt": "2026-08-24T15:49:56.763Z",
+      "country": "India",
+      "state": "Kerala",
+      "district": "Wayanad / Idukki",
+      "cityArea": "Western Ghats Catchment",
+      "dataSourceType": "DEMO",
+      "scoreBreakdown": {
+        "severityWeight": 17.5,
+        "populationWeight": 18,
+        "infrastructureWeight": 8,
+        "urgencyWeight": 10,
+        "hazardFactor": 1
+      }
+    },
+    {
+      "id": "d5-assam-brahmaputra",
+      "name": "Assam Brahmaputra River Spate",
+      "sector": "Sector 02",
+      "type": "River Inundation",
+      "riskLevel": "High",
+      "riskScore": 88,
+      "lat": 26.2006,
+      "lng": 92.9376,
+      "affectedPopulation": 42000,
+      "severity": 82,
+      "infrastructureDamage": 76,
+      "urgency": 84,
+      "status": "ACTIVE",
+      "source": "Sentinel-1 SAR Water Extent",
+      "confidence": 95,
+      "detectedAt": "2026-08-24T07:49:56.763Z",
+      "lastUpdatedAt": "2026-08-24T15:49:56.763Z",
+      "country": "India",
+      "state": "Assam",
+      "district": "Kaziranga & Nagaon",
+      "cityArea": "Central Brahmaputra Basin",
+      "dataSourceType": "DEMO",
+      "scoreBreakdown": {
+        "severityWeight": 28.7,
+        "populationWeight": 25,
+        "infrastructureWeight": 15.2,
+        "urgencyWeight": 16.8,
+        "hazardFactor": 1.02
+      }
+    }
+  ],
+  "satelliteObservations": [
+    {
+      "id": "sat-obs-001",
+      "source": "Sentinel-1 SAR",
+      "satellite": "SENTINEL-1",
+      "sensor": "C-SAR (Synthetic Aperture Radar)",
+      "mode": "SAR (Cloud Penetration)",
+      "timestamp": "24 Aug 2026, 10:24 IST",
+      "acquisitionDate": "2026-08-24T04:54:00Z",
+      "locationName": "Odisha Coastal Reach / Mahanadi Delta",
+      "lat": 20.9517,
+      "lng": 85.0985,
+      "bbox": [
+        84.7,
+        20.6,
+        85.4,
+        21.2
+      ],
+      "cloudCoverage": 0,
+      "resolution": "10m / px",
+      "imageUrl": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?q=80&w=800&auto=format&fit=crop",
+      "rawBandUrl": "/assets/satellites/sentinel-1-sar.jpg",
+      "processingLevel": "Level-1 GRD (Ground Range Detected)",
+      "dataSourceType": "DEMO",
+      "observationStatus": "RECENT OBSERVATION",
+      "disasterId": "d2-odisha-cyclone"
+    },
+    {
+      "id": "sat-obs-002",
+      "source": "Sentinel-2 Optical",
+      "satellite": "SENTINEL-2",
+      "sensor": "MSI (Multi-Spectral Instrument)",
+      "mode": "True Color (B4, B3, B2 RGB)",
+      "timestamp": "23 Aug 2026, 16:42 IST",
+      "acquisitionDate": "2026-08-23T11:12:00Z",
+      "locationName": "Gujarat Coastal Region / Gir Range",
+      "lat": 22.2587,
+      "lng": 71.1924,
+      "bbox": [
+        70.8,
+        21.8,
+        71.6,
+        22.6
+      ],
+      "cloudCoverage": 6.2,
+      "resolution": "10m / px",
+      "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop",
+      "rawBandUrl": "/assets/satellites/sentinel-2-optical.jpg",
+      "processingLevel": "Level-2A Bottom of Atmosphere (BOA)",
+      "dataSourceType": "DEMO",
+      "observationStatus": "RECENT OBSERVATION",
+      "disasterId": "d3-gujarat-landslide"
+    },
+    {
+      "id": "sat-obs-003",
+      "source": "Landsat 9 Optical",
+      "satellite": "LANDSAT 9",
+      "sensor": "OLI-2 (Operational Land Imager 2)",
+      "mode": "Multi-Spectral & SWIR",
+      "timestamp": "23 Aug 2026, 11:18 IST",
+      "acquisitionDate": "2026-08-23T05:48:00Z",
+      "locationName": "Uttarakhand Mountain Basin / Chamoli",
+      "lat": 30.0668,
+      "lng": 79.0193,
+      "bbox": [
+        78.8,
+        29.8,
+        79.3,
+        30.3
+      ],
+      "cloudCoverage": 4.1,
+      "resolution": "15m (Pan) / 30m",
+      "imageUrl": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=800&auto=format&fit=crop",
+      "rawBandUrl": "/assets/satellites/landsat-9.jpg",
+      "processingLevel": "Collection 2 Level-2 Science Product",
+      "dataSourceType": "DEMO",
+      "observationStatus": "RECENT OBSERVATION",
+      "disasterId": "d1-uttarakhand-flood"
+    }
+  ],
+  "damageAssessments": [
+    {
+      "id": "dmg-rep-001",
+      "disasterId": "d1-uttarakhand-flood",
+      "sectorName": "Sector 04 (Alaknanda Basin)",
+      "beforeImageUrl": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=800&auto=format&fit=crop",
+      "afterImageUrl": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=800&auto=format&fit=crop&tint=sepia",
+      "damageMapUrl": "https://images.unsplash.com/photo-1533134486753-c833f0eddebd?q=80&w=800&auto=format&fit=crop",
+      "confidence": 94,
+      "destroyedBuildings": 142,
+      "severeDamage": 385,
+      "moderateDamage": 890,
+      "minorDamage": 2100,
+      "safeBuildings": 4850,
+      "populationAffected": 12400,
+      "sourceSensors": "Sentinel-1 SAR Interferometry + Sentinel-2 MSI Multi-Temporal",
+      "beforeTimestamp": "2026-08-10 09:30 IST",
+      "afterTimestamp": "2026-08-24 10:24 IST",
+      "assessmentTimestamp": "2026-08-24 10:42 IST",
+      "dataSourceType": "DEMO",
+      "analysisMethod": "Bi-temporal Coherence Difference + Building Footprint Overlap",
+      "evidenceNotes": "SAR backscatter loss indicating extensive riverbed expansion and structural washouts across 3.4 sq km."
+    },
+    {
+      "id": "dmg-rep-002",
+      "disasterId": "d2-odisha-cyclone",
+      "sectorName": "Sector 08 (Puri Coastal Reach)",
+      "beforeImageUrl": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=800&auto=format&fit=crop",
+      "afterImageUrl": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=800&auto=format&fit=crop&tint=sepia",
+      "damageMapUrl": "https://images.unsplash.com/photo-1533134486753-c833f0eddebd?q=80&w=800&auto=format&fit=crop",
+      "confidence": 91,
+      "destroyedBuildings": 98,
+      "severeDamage": 412,
+      "moderateDamage": 1120,
+      "minorDamage": 3400,
+      "safeBuildings": 9200,
+      "populationAffected": 31000,
+      "sourceSensors": "Sentinel-2 Optical + INSAT-3DR Wind Radiance",
+      "beforeTimestamp": "2026-08-15 11:00 IST",
+      "afterTimestamp": "2026-08-24 10:15 IST",
+      "assessmentTimestamp": "2026-08-24 10:30 IST",
+      "dataSourceType": "DEMO",
+      "analysisMethod": "Optical NDWI (Normalized Difference Water Index) Thresholding",
+      "evidenceNotes": "Coastal storm surge inundation detected reaching 1.2 km inland across low-lying agricultural zones."
+    }
+  ],
+  "rescueTeams": [
+    {
+      "id": "t1",
+      "name": "NDRF Team Alpha (Uttarakhand)",
+      "status": "Available",
+      "lat": 29.98,
+      "lng": 79.15,
+      "distanceKm": 1169,
+      "capacity": 18,
+      "equipment": [
+        "Amphibious Craft",
+        "Heavy Inflatable Boats",
+        "Hydraulic Cutters",
+        "Mobile Trauma Kit"
+      ],
+      "members": [
+        {
+          "id": "m1",
+          "name": "Capt. Rajesh Varma",
+          "role": "Team Commander"
+        },
+        {
+          "id": "m2",
+          "name": "Dr. Anita Roy",
+          "role": "Chief Medical Officer"
+        },
+        {
+          "id": "m3",
+          "name": "Sgt. Vikram Rawat",
+          "role": "SAR Diver"
+        },
+        {
+          "id": "m4",
+          "name": "Karan Negi",
+          "role": "Drone Operator"
+        }
+      ],
+      "lastLocationUpdate": "2026-08-24T20:08:39.232Z",
+      "baseStation": "Joshimath Forward Staging Base"
+    },
+    {
+      "id": "t2",
+      "name": "SDRF Team Bravo (Garhwal)",
+      "status": "On Mission",
+      "lat": 30.12,
+      "lng": 78.92,
+      "distanceKm": 11.2,
+      "capacity": 14,
+      "equipment": [
+        "High-Altitude Ropes",
+        "Satellite Comms SatPhone",
+        "Thermal SAR Scanner"
+      ],
+      "members": [
+        {
+          "id": "m5",
+          "name": "Insp. Sunita Bisht",
+          "role": "Field Lead"
+        },
+        {
+          "id": "m6",
+          "name": "Praveen Joshi",
+          "role": "Mountain Rescue Specialist"
+        }
+      ],
+      "lastLocationUpdate": "2026-08-24T19:09:16.850Z",
+      "baseStation": "Rishikesh Emergency Hub",
+      "assignedDisasterId": "d1-uttarakhand-flood"
+    },
+    {
+      "id": "t3",
+      "name": "ODRAF Coastal Taskforce Charlie",
+      "status": "Available",
+      "lat": 20.95,
+      "lng": 85.12,
+      "distanceKm": 6.7,
+      "capacity": 22,
+      "equipment": [
+        "Tree Clearing Chainsaws",
+        "High-Discharge Dewatering Pumps",
+        "Ambulance Unit"
+      ],
+      "members": [
+        {
+          "id": "m7",
+          "name": "Maj. Pradeep Jena",
+          "role": "Coastal Operations Lead"
+        },
+        {
+          "id": "m8",
+          "name": "Subrat Patnaik",
+          "role": "Paramedic"
+        }
+      ],
+      "lastLocationUpdate": "2026-08-24T15:53:49.489Z",
+      "baseStation": "Bhubaneswar Disaster HQ"
+    },
+    {
+      "id": "t4",
+      "name": "Gujarat Quick Response Delta",
+      "status": "On Mission",
+      "lat": 22.18,
+      "lng": 71.05,
+      "distanceKm": 6924,
+      "capacity": 12,
+      "equipment": [
+        "Earth Movers Support",
+        "Structural Shoring",
+        "Canine Search Unit"
+      ],
+      "members": [
+        {
+          "id": "m9",
+          "name": "Ramesh Patel",
+          "role": "Civil Defense Engineer"
+        }
+      ],
+      "lastLocationUpdate": "2026-08-24T19:09:22.623Z",
+      "baseStation": "Rajkot Emergency Operations Center",
+      "assignedDisasterId": "usgs-us6000tn41"
+    }
+  ],
+  "rescueAssignments": [
+    {
+      "id": "assign-1787602102846",
+      "teamId": "t1",
+      "disasterId": "d3-gujarat-landslide",
+      "assignedAt": "2026-08-24T20:08:22.846Z",
+      "status": "DEASSIGNED",
+      "notes": "Deployed to Gujarat Hill Slope Landslide Risk (Sector 12)",
+      "endedAt": "2026-08-24T20:08:39.232Z"
+    },
+    {
+      "id": "assign-1787598635634",
+      "teamId": "t1",
+      "disasterId": "d3-gujarat-landslide",
+      "assignedAt": "2026-08-24T19:10:35.633Z",
+      "status": "DEASSIGNED",
+      "notes": "Deployed to Gujarat Hill Slope Landslide Risk (Sector 12)",
+      "endedAt": "2026-08-24T19:58:43.816Z"
+    },
+    {
+      "id": "assign-1787598562623",
+      "teamId": "t4",
+      "disasterId": "usgs-us6000tn41",
+      "assignedAt": "2026-08-24T19:09:22.623Z",
+      "status": "DEPLOYED",
+      "notes": "Deployed to 215 km NNE of Lospalos, Timor Leste (M6.0) (Global Sector)"
+    },
+    {
+      "id": "assign-1787598556850",
+      "teamId": "t2",
+      "disasterId": "d1-uttarakhand-flood",
+      "assignedAt": "2026-08-24T19:09:16.850Z",
+      "status": "DEPLOYED",
+      "notes": "Deployed to Uttarakhand Flash Flood Zone (Sector 04)"
+    },
+    {
+      "id": "assign-1787597389640",
+      "teamId": "t2",
+      "disasterId": "d2-odisha-cyclone",
+      "assignedAt": "2026-08-24T18:49:49.640Z",
+      "status": "DEASSIGNED",
+      "notes": "Deployed to Odisha Coastal Cyclone Impact (Sector 08)",
+      "endedAt": "2026-08-24T18:49:49.657Z"
+    },
+    {
+      "id": "assign-1787597351327",
+      "teamId": "t1",
+      "disasterId": "d1-uttarakhand-flood",
+      "assignedAt": "2026-08-24T18:49:11.327Z",
+      "status": "DEASSIGNED",
+      "notes": "Deployed to Uttarakhand Flash Flood Zone (Sector 04)",
+      "endedAt": "2026-08-24T18:49:11.355Z"
+    },
+    {
+      "id": "assign-1787589551492",
+      "teamId": "t4",
+      "disasterId": "d3-gujarat-landslide",
+      "assignedAt": "2026-08-24T16:39:11.492Z",
+      "status": "DEASSIGNED",
+      "notes": "Deployed to Gujarat Hill Slope Landslide Risk (Sector 12)",
+      "endedAt": "2026-08-24T16:39:11.513Z"
+    },
+    {
+      "id": "assign-1787588668839",
+      "teamId": "t4",
+      "disasterId": "d3-gujarat-landslide",
+      "assignedAt": "2026-08-24T16:24:28.839Z",
+      "status": "DEASSIGNED",
+      "notes": "Deployed to Gujarat Hill Slope Landslide Risk (Sector 12)",
+      "endedAt": "2026-08-24T16:24:28.857Z"
+    },
+    {
+      "id": "assign-1787586630414",
+      "teamId": "t4",
+      "disasterId": "d3-gujarat-landslide",
+      "assignedAt": "2026-08-24T15:50:30.414Z",
+      "status": "DEASSIGNED",
+      "notes": "Deployed to Gujarat Hill Slope Landslide Risk (Sector 12)",
+      "endedAt": "2026-08-24T15:50:30.424Z"
+    },
+    {
+      "id": "assign-1787584899082",
+      "teamId": "t4",
+      "disasterId": "d1-uttarakhand-flood",
+      "assignedAt": "2026-08-24T15:21:39.082Z",
+      "status": "DEPLOYED",
+      "notes": "Deployed to Uttarakhand Flash Flood Zone (Sector 04)"
+    },
+    {
+      "id": "assign-1787584369537",
+      "teamId": "t2",
+      "disasterId": "d1-uttarakhand-flood",
+      "assignedAt": "2026-08-24T15:12:49.537Z",
+      "status": "DEPLOYED",
+      "notes": "Deploying Garhwal SDRF"
+    },
+    {
+      "id": "assign-1787584283237",
+      "teamId": "t1",
+      "disasterId": "d1-uttarakhand-flood",
+      "assignedAt": "2026-08-24T15:11:23.237Z",
+      "status": "DEPLOYED",
+      "notes": "Deployed to Uttarakhand Flash Flood Zone (Sector 04)"
+    }
+  ],
+  "safeLocations": [
+    {
+      "id": "safe-01",
+      "name": "Joshimath Central Evacuation Center",
+      "type": "evacuation_center",
+      "lat": 30.555,
+      "lng": 79.567,
+      "capacity": 1500,
+      "currentOccupancy": 340,
+      "status": "OPEN",
+      "contact": "+91-1372-222100",
+      "facilities": [
+        "Emergency Medical Wing",
+        "High-Capacity Generators",
+        "RO Drinking Water",
+        "Helipad Access"
+      ],
+      "regionId": "reg-north-in"
+    },
+    {
+      "id": "safe-02",
+      "name": "Chamoli District Civil Hospital",
+      "type": "hospital",
+      "lat": 30.412,
+      "lng": 79.324,
+      "capacity": 600,
+      "currentOccupancy": 280,
+      "status": "OPEN",
+      "contact": "+91-1372-252102",
+      "facilities": [
+        "ICU Beds",
+        "Blood Bank",
+        "Surgical Suites",
+        "24/7 Trauma Service"
+      ],
+      "regionId": "reg-north-in"
+    },
+    {
+      "id": "safe-03",
+      "name": "Gopeshwar SDRF Relief Shelter",
+      "type": "relief_camp",
+      "lat": 30.408,
+      "lng": 79.338,
+      "capacity": 2000,
+      "currentOccupancy": 850,
+      "status": "OPEN",
+      "contact": "+91-1372-251000",
+      "facilities": [
+        "Food Ration Supplies",
+        "Satellite Wifi Hotspot",
+        "Sanitation Facilities"
+      ],
+      "regionId": "reg-north-in"
+    },
+    {
+      "id": "safe-04",
+      "name": "Puri Multi-Purpose Cyclone Shelter",
+      "type": "evacuation_center",
+      "lat": 19.813,
+      "lng": 85.831,
+      "capacity": 3500,
+      "currentOccupancy": 1200,
+      "status": "OPEN",
+      "contact": "+91-6752-223400",
+      "facilities": [
+        "Reinforced Concrete Dome",
+        "Dewatering Pumps",
+        "Emergency Kitchen"
+      ],
+      "regionId": "reg-east-in"
+    },
+    {
+      "id": "safe-05",
+      "name": "Jagatsinghpur District Emergency Hospital",
+      "type": "hospital",
+      "lat": 20.264,
+      "lng": 86.168,
+      "capacity": 800,
+      "currentOccupancy": 410,
+      "status": "OPEN",
+      "contact": "+91-6724-220050",
+      "facilities": [
+        "Trauma Center",
+        "Oxygen Plants",
+        "Power Backup"
+      ],
+      "regionId": "reg-east-in"
+    },
+    {
+      "id": "safe-06",
+      "name": "Junagadh District Evacuation Base",
+      "type": "evacuation_center",
+      "lat": 21.522,
+      "lng": 70.457,
+      "capacity": 2200,
+      "currentOccupancy": 620,
+      "status": "OPEN",
+      "contact": "+91-285-2630100",
+      "facilities": [
+        "Earthquake Resistant Hall",
+        "Ambulance Fleet",
+        "Ration Stockpile"
+      ],
+      "regionId": "reg-west-in"
+    },
+    {
+      "id": "safe-07",
+      "name": "Gir Somnath Civil Hospital",
+      "type": "hospital",
+      "lat": 20.904,
+      "lng": 70.366,
+      "capacity": 750,
+      "currentOccupancy": 390,
+      "status": "OPEN",
+      "contact": "+91-2876-220100",
+      "facilities": [
+        "Emergency Ward",
+        "Helipad",
+        "Triage Station"
+      ],
+      "regionId": "reg-west-in"
+    }
+  ],
+  "offlineRegions": [
+    {
+      "id": "reg-north-in",
+      "name": "Northern India",
+      "state": "Uttarakhand, Himachal & J&K",
+      "status": "Cached",
+      "sizeMb": 1840,
+      "lastSync": "01:33 AM IST",
+      "centerLat": 30.0668,
+      "centerLng": 79.0193,
+      "bounds": [
+        [
+          28.5,
+          77.5
+        ],
+        [
+          31.5,
+          81
+        ]
+      ],
+      "safeLocationsCount": 42,
+      "roadNodesCount": 1540
+    },
+    {
+      "id": "reg-east-in",
+      "name": "Eastern India",
+      "state": "Odisha, West Bengal & Assam",
+      "status": "Cached",
+      "sizeMb": 2150,
+      "lastSync": "10:15 AM IST",
+      "centerLat": 20.9517,
+      "centerLng": 85.0985,
+      "bounds": [
+        [
+          19,
+          83.5
+        ],
+        [
+          23.5,
+          87.5
+        ]
+      ],
+      "safeLocationsCount": 56,
+      "roadNodesCount": 2180
+    },
+    {
+      "id": "reg-south-in",
+      "name": "Southern India",
+      "state": "Kerala, Tamil Nadu & Andhra",
+      "status": "Cached",
+      "sizeMb": 1520,
+      "lastSync": "01:29 AM IST",
+      "centerLat": 10.8505,
+      "centerLng": 76.2711,
+      "bounds": [
+        [
+          8.2,
+          74.8
+        ],
+        [
+          13.5,
+          78.5
+        ]
+      ],
+      "safeLocationsCount": 38,
+      "roadNodesCount": 1390
+    },
+    {
+      "id": "reg-west-in",
+      "name": "Western India",
+      "state": "Gujarat, Maharashtra & Rajasthan",
+      "status": "Cached",
+      "sizeMb": 1920,
+      "lastSync": "12:40 AM IST",
+      "centerLat": 22.2587,
+      "centerLng": 71.1924,
+      "bounds": [
+        [
+          20,
+          68.5
+        ],
+        [
+          24.8,
+          74
+        ]
+      ],
+      "safeLocationsCount": 49,
+      "roadNodesCount": 1870
+    }
+  ],
+  "notifications": [
+    {
+      "title": "Rescue Team De-assigned: NDRF Team Alpha (Uttarakhand)",
+      "description": "NDRF Team Alpha (Uttarakhand) de-assigned from Sector 12 (Gujarat Hill Slope Landslide Risk)",
+      "timestamp": "Just now",
+      "severity": "Medium",
+      "category": "RESCUE",
+      "entityId": "t1",
+      "id": "notif-1787602119233-ww0e",
+      "isRead": false,
+      "createdAt": "2026-08-24T20:08:39.233Z"
+    },
+    {
+      "title": "Rescue Team Assigned: NDRF Team Alpha (Uttarakhand)",
+      "description": "NDRF Team Alpha (Uttarakhand) assigned to Sector 12 (Gujarat Hill Slope Landslide Risk)",
+      "timestamp": "Just now",
+      "severity": "Info",
+      "category": "RESCUE",
+      "entityId": "t1",
+      "id": "notif-1787602102848-uept",
+      "isRead": false,
+      "createdAt": "2026-08-24T20:08:22.848Z"
+    },
+    {
+      "title": "Offline Map Cached: Northern India",
+      "description": "Offline evacuation package and road vector graph cached for Uttarakhand, Himachal & J&K",
+      "timestamp": "Just now",
+      "severity": "Info",
+      "category": "OFFLINE",
+      "entityId": "reg-north-in",
+      "id": "notif-1787601800936-sru3",
+      "isRead": false,
+      "createdAt": "2026-08-24T20:03:20.936Z"
+    },
+    {
+      "title": "Offline Map Cached: Southern India",
+      "description": "Offline evacuation package and road vector graph cached for Kerala, Tamil Nadu & Andhra",
+      "timestamp": "Just now",
+      "severity": "Info",
+      "category": "OFFLINE",
+      "entityId": "reg-south-in",
+      "id": "notif-1787601577039-nhm9",
+      "isRead": false,
+      "createdAt": "2026-08-24T19:59:37.039Z"
+    },
+    {
+      "title": "Offline Map Cached: Northern India",
+      "description": "Offline evacuation package and road vector graph cached for Uttarakhand, Himachal & J&K",
+      "timestamp": "Just now",
+      "severity": "Info",
+      "category": "OFFLINE",
+      "entityId": "reg-north-in",
+      "id": "notif-1787601571094-q12u",
+      "isRead": false,
+      "createdAt": "2026-08-24T19:59:31.094Z"
+    },
+    {
+      "title": "Rescue Team De-assigned: NDRF Team Alpha (Uttarakhand)",
+      "description": "NDRF Team Alpha (Uttarakhand) de-assigned from Sector 12 (Gujarat Hill Slope Landslide Risk)",
+      "timestamp": "Just now",
+      "severity": "Medium",
+      "category": "RESCUE",
+      "entityId": "t1",
+      "id": "notif-1787601523822-dg30",
+      "isRead": false,
+      "createdAt": "2026-08-24T19:58:43.822Z"
+    },
+    {
+      "title": "Rescue Team Assigned: NDRF Team Alpha (Uttarakhand)",
+      "description": "NDRF Team Alpha (Uttarakhand) assigned to Sector 12 (Gujarat Hill Slope Landslide Risk)",
+      "timestamp": "Just now",
+      "severity": "Info",
+      "category": "RESCUE",
+      "entityId": "t1",
+      "id": "notif-1787598635634-dh7x",
+      "isRead": false,
+      "createdAt": "2026-08-24T19:10:35.634Z"
+    },
+    {
+      "title": "Offline Map Cached: Western India",
+      "description": "Offline evacuation package and road vector graph cached for Gujarat, Maharashtra & Rajasthan",
+      "timestamp": "Just now",
+      "severity": "Info",
+      "category": "OFFLINE",
+      "entityId": "reg-west-in",
+      "id": "notif-1787598624784-v9l4",
+      "isRead": false,
+      "createdAt": "2026-08-24T19:10:24.784Z"
+    },
+    {
+      "title": "Rescue Team Assigned: Gujarat Quick Response Delta",
+      "description": "Gujarat Quick Response Delta assigned to Global Sector (215 km NNE of Lospalos, Timor Leste (M6.0))",
+      "timestamp": "Just now",
+      "severity": "Info",
+      "category": "RESCUE",
+      "entityId": "t4",
+      "id": "notif-1787598562623-v4xl",
+      "isRead": false,
+      "createdAt": "2026-08-24T19:09:22.623Z"
+    },
+    {
+      "title": "Rescue Team Assigned: SDRF Team Bravo (Garhwal)",
+      "description": "SDRF Team Bravo (Garhwal) assigned to Sector 04 (Uttarakhand Flash Flood Zone)",
+      "timestamp": "Just now",
+      "severity": "Info",
+      "category": "RESCUE",
+      "entityId": "t2",
+      "id": "notif-1787598556852-8gvm",
+      "isRead": false,
+      "createdAt": "2026-08-24T19:09:16.852Z"
+    },
+    {
+      "title": "Rescue Team De-assigned: SDRF Team Bravo (Garhwal)",
+      "description": "SDRF Team Bravo (Garhwal) de-assigned from Sector 08 (Odisha Coastal Cyclone Impact)",
+      "timestamp": "Just now",
+      "severity": "Medium",
+      "category": "RESCUE",
+      "entityId": "t2",
+      "id": "notif-1787597389658-blwp",
+      "isRead": false,
+      "createdAt": "2026-08-24T18:49:49.658Z"
+    },
+    {
+      "title": "Rescue Team Assigned: SDRF Team Bravo (Garhwal)",
+      "description": "SDRF Team Bravo (Garhwal) assigned to Sector 08 (Odisha Coastal Cyclone Impact)",
+      "timestamp": "Just now",
+      "severity": "Info",
+      "category": "RESCUE",
+      "entityId": "t2",
+      "id": "notif-1787597389640-1oz9",
+      "isRead": false,
+      "createdAt": "2026-08-24T18:49:49.640Z"
+    },
+    {
+      "title": "Rescue Team De-assigned: NDRF Team Alpha (Uttarakhand)",
+      "description": "NDRF Team Alpha (Uttarakhand) de-assigned from Sector 04 (Uttarakhand Flash Flood Zone)",
+      "timestamp": "Just now",
+      "severity": "Medium",
+      "category": "RESCUE",
+      "entityId": "t1",
+      "id": "notif-1787597351355-zfi3",
+      "isRead": false,
+      "createdAt": "2026-08-24T18:49:11.355Z"
+    },
+    {
+      "title": "Rescue Team Assigned: NDRF Team Alpha (Uttarakhand)",
+      "description": "NDRF Team Alpha (Uttarakhand) assigned to Sector 04 (Uttarakhand Flash Flood Zone)",
+      "timestamp": "Just now",
+      "severity": "Info",
+      "category": "RESCUE",
+      "entityId": "t1",
+      "id": "notif-1787597351328-xvd1",
+      "isRead": false,
+      "createdAt": "2026-08-24T18:49:11.328Z"
+    },
+    {
+      "title": "Rescue Team Deassigned: Gujarat Quick Response Delta",
+      "description": "Assignment cleared for Gujarat Hill Slope Landslide Risk. Team is now Available for dispatch.",
+      "timestamp": "Just now",
+      "severity": "Medium",
+      "category": "RESCUE",
+      "entityId": "t4",
+      "id": "notif-1787589551513-ul06",
+      "isRead": false,
+      "createdAt": "2026-08-24T16:39:11.513Z"
+    },
+    {
+      "title": "Rescue Team Dispatched: Gujarat Quick Response Delta",
+      "description": "Assigned to Gujarat Hill Slope Landslide Risk (Sector 12). Target ETA ~ 29 mins.",
+      "timestamp": "Just now",
+      "severity": "Info",
+      "category": "RESCUE",
+      "entityId": "t4",
+      "id": "notif-1787589551493-9ept",
+      "isRead": false,
+      "createdAt": "2026-08-24T16:39:11.493Z"
+    },
+    {
+      "title": "Rescue Team Deassigned: Gujarat Quick Response Delta",
+      "description": "Assignment cleared for Gujarat Hill Slope Landslide Risk. Team is now Available for dispatch.",
+      "timestamp": "Just now",
+      "severity": "Medium",
+      "category": "RESCUE",
+      "entityId": "t4",
+      "id": "notif-1787588668857-ylit",
+      "isRead": true,
+      "createdAt": "2026-08-24T16:24:28.857Z"
+    },
+    {
+      "title": "Rescue Team Dispatched: Gujarat Quick Response Delta",
+      "description": "Assigned to Gujarat Hill Slope Landslide Risk (Sector 12). Target ETA ~ 29 mins.",
+      "timestamp": "Just now",
+      "severity": "Info",
+      "category": "RESCUE",
+      "entityId": "t4",
+      "id": "notif-1787588668839-0ycl",
+      "isRead": false,
+      "createdAt": "2026-08-24T16:24:28.839Z"
+    },
+    {
+      "title": "Rescue Team Deassigned: ODRAF Coastal Taskforce Charlie",
+      "description": "Assignment cleared for Odisha Coastal Cyclone Impact. Team is now Available for dispatch.",
+      "timestamp": "Just now",
+      "severity": "Medium",
+      "category": "RESCUE",
+      "entityId": "t3",
+      "id": "notif-1787586829489-u19a",
+      "isRead": true,
+      "createdAt": "2026-08-24T15:53:49.489Z"
+    },
+    {
+      "title": "Rescue Team Deassigned: Gujarat Quick Response Delta",
+      "description": "Assignment cleared for Gujarat Hill Slope Landslide Risk. Team is now Available for dispatch.",
+      "timestamp": "Just now",
+      "severity": "Medium",
+      "category": "RESCUE",
+      "entityId": "t4",
+      "id": "notif-1787586630424-okjk",
+      "isRead": true,
+      "createdAt": "2026-08-24T15:50:30.424Z"
+    },
+    {
+      "title": "Rescue Team Dispatched: Gujarat Quick Response Delta",
+      "description": "Assigned to Gujarat Hill Slope Landslide Risk (Sector 12). Target ETA ~ 29 mins.",
+      "timestamp": "Just now",
+      "severity": "Info",
+      "category": "RESCUE",
+      "entityId": "t4",
+      "id": "notif-1787586630414-gq1g",
+      "isRead": true,
+      "createdAt": "2026-08-24T15:50:30.414Z"
+    },
+    {
+      "id": "notif-01",
+      "title": "High-risk flood zone detected",
+      "description": "Odisha coastal sector requires immediate attention. Surge level exceeds 2.8m above datum.",
+      "timestamp": "2 min ago",
+      "severity": "Critical",
+      "isRead": true,
+      "category": "DISASTER",
+      "entityId": "d2-odisha-cyclone",
+      "createdAt": "2026-08-24T15:47:56.762Z"
+    },
+    {
+      "id": "notif-02",
+      "title": "Sentinel-1 SAR Observation Ingested",
+      "description": "Cloud-penetrating SAR scan of Alaknanda River Basin updated with 10m resolution flood extent.",
+      "timestamp": "14 min ago",
+      "severity": "Medium",
+      "isRead": true,
+      "category": "SATELLITE",
+      "entityId": "sat-obs-001",
+      "createdAt": "2026-08-24T15:35:56.763Z"
+    },
+    {
+      "id": "notif-03",
+      "title": "Rescue Unit Alpha Dispatched",
+      "description": "NDRF Team Alpha mobilized to Uttarakhand Flash Flood Zone with amphibious crafts.",
+      "timestamp": "28 min ago",
+      "severity": "Info",
+      "isRead": true,
+      "category": "RESCUE",
+      "entityId": "t1",
+      "createdAt": "2026-08-24T15:21:56.763Z"
+    },
+    {
+      "id": "notif-04",
+      "title": "Damage Assessment Model Executed",
+      "description": "Automated bi-temporal change detection classified 142 destroyed and 385 severely damaged buildings.",
+      "timestamp": "45 min ago",
+      "severity": "High",
+      "isRead": true,
+      "category": "DAMAGE",
+      "entityId": "dmg-rep-001",
+      "createdAt": "2026-08-24T15:04:56.763Z"
+    },
+    {
+      "id": "notif-05",
+      "title": "Northern India Offline Pack Synced",
+      "description": "1,540 road network nodes and 42 emergency shelters successfully cached for disconnected use.",
+      "timestamp": "1 hour ago",
+      "severity": "Success",
+      "isRead": true,
+      "category": "OFFLINE",
+      "entityId": "reg-north-in",
+      "createdAt": "2026-08-24T14:49:56.763Z"
+    }
+  ],
+  "settings": {
+    "refreshInterval": "1m",
+    "criticalAlerts": true,
+    "highRiskAlerts": true,
+    "evacuationAlerts": true,
+    "mapStyle": "Satellite",
+    "autoSync": true,
+    "offlineRegionsCached": [
+      "Northern India",
+      "Eastern India",
+      "Western India"
+    ]
+  },
+  "systemEvents": [
+    {
+      "id": "evt-1787602119232-ng706",
+      "eventType": "RESCUE_TEAM_DEASSIGNED",
+      "category": "RESCUE",
+      "severity": "Medium",
+      "title": "Rescue Team De-assigned: NDRF Team Alpha (Uttarakhand)",
+      "description": "NDRF Team Alpha (Uttarakhand) de-assigned from Sector 12 (Gujarat Hill Slope Landslide Risk)",
+      "entityType": "RescueTeam",
+      "entityId": "t1",
+      "metadata": {
+        "teamId": "t1",
+        "teamName": "NDRF Team Alpha (Uttarakhand)",
+        "disasterId": "d3-gujarat-landslide",
+        "disasterName": "Gujarat Hill Slope Landslide Risk",
+        "sectorId": "Sector 12",
+        "sectorName": "Sector 12",
+        "previousStatus": "On Mission",
+        "newStatus": "Available",
+        "action": "DEASSIGNED",
+        "source": "Operator Dispatch Console"
+      },
+      "payload": {
+        "teamId": "t1",
+        "teamName": "NDRF Team Alpha (Uttarakhand)",
+        "disasterId": "d3-gujarat-landslide",
+        "disasterName": "Gujarat Hill Slope Landslide Risk",
+        "sectorId": "Sector 12",
+        "sectorName": "Sector 12",
+        "previousStatus": "On Mission",
+        "newStatus": "Available",
+        "action": "DEASSIGNED",
+        "source": "Operator Dispatch Console"
+      },
+      "createdAt": "2026-08-24T20:08:39.232Z",
+      "timestamp": "01:38 AM IST",
+      "acknowledged": false
+    },
+    {
+      "id": "evt-1787602102848-kpqzl",
+      "eventType": "RESCUE_TEAM_ASSIGNED",
+      "category": "RESCUE",
+      "severity": "Info",
+      "title": "Rescue Team Assigned: NDRF Team Alpha (Uttarakhand)",
+      "description": "NDRF Team Alpha (Uttarakhand) assigned to Sector 12 (Gujarat Hill Slope Landslide Risk)",
+      "entityType": "RescueTeam",
+      "entityId": "t1",
+      "metadata": {
+        "assignmentId": "assign-1787602102846",
+        "teamId": "t1",
+        "teamName": "NDRF Team Alpha (Uttarakhand)",
+        "disasterId": "d3-gujarat-landslide",
+        "disasterName": "Gujarat Hill Slope Landslide Risk",
+        "sectorId": "Sector 12",
+        "sectorName": "Sector 12",
+        "previousStatus": "Available",
+        "newStatus": "On Mission",
+        "action": "ASSIGNED",
+        "source": "Operator Dispatch Console"
+      },
+      "payload": {
+        "assignmentId": "assign-1787602102846",
+        "teamId": "t1",
+        "teamName": "NDRF Team Alpha (Uttarakhand)",
+        "disasterId": "d3-gujarat-landslide",
+        "disasterName": "Gujarat Hill Slope Landslide Risk",
+        "sectorId": "Sector 12",
+        "sectorName": "Sector 12",
+        "previousStatus": "Available",
+        "newStatus": "On Mission",
+        "action": "ASSIGNED",
+        "source": "Operator Dispatch Console"
+      },
+      "createdAt": "2026-08-24T20:08:22.848Z",
+      "timestamp": "01:38 AM IST",
+      "acknowledged": false
+    },
+    {
+      "id": "evt-1787601800935-rm07d",
+      "eventType": "OFFLINE_MAP_REGION_CACHED",
+      "category": "OFFLINE",
+      "severity": "Info",
+      "title": "Offline Map Cached: Northern India",
+      "description": "Offline evacuation package and road vector graph cached for Uttarakhand, Himachal & J&K",
+      "entityType": "OfflineRegion",
+      "entityId": "reg-north-in",
+      "metadata": {
+        "regionId": "reg-north-in",
+        "name": "Northern India",
+        "state": "Uttarakhand, Himachal & J&K",
+        "sizeMb": 1840
+      },
+      "payload": {
+        "regionId": "reg-north-in",
+        "name": "Northern India",
+        "state": "Uttarakhand, Himachal & J&K",
+        "sizeMb": 1840
+      },
+      "createdAt": "2026-08-24T20:03:20.935Z",
+      "timestamp": "01:33 AM IST",
+      "acknowledged": false
+    },
+    {
+      "id": "evt-1787601577039-dqozd",
+      "eventType": "OFFLINE_MAP_REGION_CACHED",
+      "category": "OFFLINE",
+      "severity": "Info",
+      "title": "Offline Map Cached: Southern India",
+      "description": "Offline evacuation package and road vector graph cached for Kerala, Tamil Nadu & Andhra",
+      "entityType": "OfflineRegion",
+      "entityId": "reg-south-in",
+      "metadata": {
+        "regionId": "reg-south-in",
+        "name": "Southern India",
+        "state": "Kerala, Tamil Nadu & Andhra",
+        "sizeMb": 1520
+      },
+      "payload": {
+        "regionId": "reg-south-in",
+        "name": "Southern India",
+        "state": "Kerala, Tamil Nadu & Andhra",
+        "sizeMb": 1520
+      },
+      "createdAt": "2026-08-24T19:59:37.039Z",
+      "timestamp": "01:29 AM IST",
+      "acknowledged": false
+    },
+    {
+      "id": "evt-1787601571094-j9vva",
+      "eventType": "OFFLINE_MAP_REGION_CACHED",
+      "category": "OFFLINE",
+      "severity": "Info",
+      "title": "Offline Map Cached: Northern India",
+      "description": "Offline evacuation package and road vector graph cached for Uttarakhand, Himachal & J&K",
+      "entityType": "OfflineRegion",
+      "entityId": "reg-north-in",
+      "metadata": {
+        "regionId": "reg-north-in",
+        "name": "Northern India",
+        "state": "Uttarakhand, Himachal & J&K",
+        "sizeMb": 1840
+      },
+      "payload": {
+        "regionId": "reg-north-in",
+        "name": "Northern India",
+        "state": "Uttarakhand, Himachal & J&K",
+        "sizeMb": 1840
+      },
+      "createdAt": "2026-08-24T19:59:31.094Z",
+      "timestamp": "01:29 AM IST",
+      "acknowledged": false
+    },
+    {
+      "id": "evt-1787601523817-y7alk",
+      "eventType": "RESCUE_TEAM_DEASSIGNED",
+      "category": "RESCUE",
+      "severity": "Medium",
+      "title": "Rescue Team De-assigned: NDRF Team Alpha (Uttarakhand)",
+      "description": "NDRF Team Alpha (Uttarakhand) de-assigned from Sector 12 (Gujarat Hill Slope Landslide Risk)",
+      "entityType": "RescueTeam",
+      "entityId": "t1",
+      "metadata": {
+        "teamId": "t1",
+        "teamName": "NDRF Team Alpha (Uttarakhand)",
+        "disasterId": "d3-gujarat-landslide",
+        "disasterName": "Gujarat Hill Slope Landslide Risk",
+        "sectorId": "Sector 12",
+        "sectorName": "Sector 12",
+        "previousStatus": "On Mission",
+        "newStatus": "Available",
+        "action": "DEASSIGNED",
+        "source": "Operator Dispatch Console"
+      },
+      "payload": {
+        "teamId": "t1",
+        "teamName": "NDRF Team Alpha (Uttarakhand)",
+        "disasterId": "d3-gujarat-landslide",
+        "disasterName": "Gujarat Hill Slope Landslide Risk",
+        "sectorId": "Sector 12",
+        "sectorName": "Sector 12",
+        "previousStatus": "On Mission",
+        "newStatus": "Available",
+        "action": "DEASSIGNED",
+        "source": "Operator Dispatch Console"
+      },
+      "createdAt": "2026-08-24T19:58:43.817Z",
+      "timestamp": "01:28 AM IST",
+      "acknowledged": false
+    },
+    {
+      "id": "evt-1787598673996-ar7je",
+      "eventType": "SETTINGS_UPDATED",
+      "category": "SYSTEM",
+      "severity": "Info",
+      "title": "SETTINGS UPDATED",
+      "description": "{\"criticalAlerts\":true}",
+      "metadata": {
+        "criticalAlerts": true
+      },
+      "payload": {
+        "criticalAlerts": true
+      },
+      "createdAt": "2026-08-24T19:11:13.996Z",
+      "timestamp": "12:41 AM IST",
+      "acknowledged": false
+    },
+    {
+      "id": "evt-1787598672954-0xakr",
+      "eventType": "SETTINGS_UPDATED",
+      "category": "SYSTEM",
+      "severity": "Info",
+      "title": "SETTINGS UPDATED",
+      "description": "{\"criticalAlerts\":false}",
+      "metadata": {
+        "criticalAlerts": false
+      },
+      "payload": {
+        "criticalAlerts": false
+      },
+      "createdAt": "2026-08-24T19:11:12.954Z",
+      "timestamp": "12:41 AM IST",
+      "acknowledged": false
+    },
+    {
+      "id": "evt-1787598635634-tkkys",
+      "eventType": "RESCUE_TEAM_ASSIGNED",
+      "category": "RESCUE",
+      "severity": "Info",
+      "title": "Rescue Team Assigned: NDRF Team Alpha (Uttarakhand)",
+      "description": "NDRF Team Alpha (Uttarakhand) assigned to Sector 12 (Gujarat Hill Slope Landslide Risk)",
+      "entityType": "RescueTeam",
+      "entityId": "t1",
+      "metadata": {
+        "assignmentId": "assign-1787598635634",
+        "teamId": "t1",
+        "teamName": "NDRF Team Alpha (Uttarakhand)",
+        "disasterId": "d3-gujarat-landslide",
+        "disasterName": "Gujarat Hill Slope Landslide Risk",
+        "sectorId": "Sector 12",
+        "sectorName": "Sector 12",
+        "previousStatus": "Available",
+        "newStatus": "On Mission",
+        "action": "ASSIGNED",
+        "source": "Operator Dispatch Console"
+      },
+      "payload": {
+        "assignmentId": "assign-1787598635634",
+        "teamId": "t1",
+        "teamName": "NDRF Team Alpha (Uttarakhand)",
+        "disasterId": "d3-gujarat-landslide",
+        "disasterName": "Gujarat Hill Slope Landslide Risk",
+        "sectorId": "Sector 12",
+        "sectorName": "Sector 12",
+        "previousStatus": "Available",
+        "newStatus": "On Mission",
+        "action": "ASSIGNED",
+        "source": "Operator Dispatch Console"
+      },
+      "createdAt": "2026-08-24T19:10:35.634Z",
+      "timestamp": "12:40 AM IST",
+      "acknowledged": false
+    },
+    {
+      "id": "evt-1787598624784-9fez6",
+      "eventType": "OFFLINE_MAP_REGION_CACHED",
+      "category": "OFFLINE",
+      "severity": "Info",
+      "title": "Offline Map Cached: Western India",
+      "description": "Offline evacuation package and road vector graph cached for Gujarat, Maharashtra & Rajasthan",
+      "entityType": "OfflineRegion",
+      "entityId": "reg-west-in",
+      "metadata": {
+        "regionId": "reg-west-in",
+        "name": "Western India",
+        "state": "Gujarat, Maharashtra & Rajasthan",
+        "sizeMb": 1920
+      },
+      "payload": {
+        "regionId": "reg-west-in",
+        "name": "Western India",
+        "state": "Gujarat, Maharashtra & Rajasthan",
+        "sizeMb": 1920
+      },
+      "createdAt": "2026-08-24T19:10:24.784Z",
+      "timestamp": "12:40 AM IST",
+      "acknowledged": false
+    },
+    {
+      "id": "evt-1787598562623-p5ts2",
+      "eventType": "RESCUE_TEAM_ASSIGNED",
+      "category": "RESCUE",
+      "severity": "Info",
+      "title": "Rescue Team Assigned: Gujarat Quick Response Delta",
+      "description": "Gujarat Quick Response Delta assigned to Global Sector (215 km NNE of Lospalos, Timor Leste (M6.0))",
+      "entityType": "RescueTeam",
+      "entityId": "t4",
+      "metadata": {
+        "assignmentId": "assign-1787598562623",
+        "teamId": "t4",
+        "teamName": "Gujarat Quick Response Delta",
+        "disasterId": "usgs-us6000tn41",
+        "disasterName": "215 km NNE of Lospalos, Timor Leste (M6.0)",
+        "sectorId": "Global Sector",
+        "sectorName": "Global Sector",
+        "previousStatus": "Available",
+        "newStatus": "On Mission",
+        "action": "ASSIGNED",
+        "source": "Operator Dispatch Console"
+      },
+      "payload": {
+        "assignmentId": "assign-1787598562623",
+        "teamId": "t4",
+        "teamName": "Gujarat Quick Response Delta",
+        "disasterId": "usgs-us6000tn41",
+        "disasterName": "215 km NNE of Lospalos, Timor Leste (M6.0)",
+        "sectorId": "Global Sector",
+        "sectorName": "Global Sector",
+        "previousStatus": "Available",
+        "newStatus": "On Mission",
+        "action": "ASSIGNED",
+        "source": "Operator Dispatch Console"
+      },
+      "createdAt": "2026-08-24T19:09:22.623Z",
+      "timestamp": "12:39 AM IST",
+      "acknowledged": false
+    },
+    {
+      "id": "evt-1787598556852-ji2gb",
+      "eventType": "RESCUE_TEAM_ASSIGNED",
+      "category": "RESCUE",
+      "severity": "Info",
+      "title": "Rescue Team Assigned: SDRF Team Bravo (Garhwal)",
+      "description": "SDRF Team Bravo (Garhwal) assigned to Sector 04 (Uttarakhand Flash Flood Zone)",
+      "entityType": "RescueTeam",
+      "entityId": "t2",
+      "metadata": {
+        "assignmentId": "assign-1787598556850",
+        "teamId": "t2",
+        "teamName": "SDRF Team Bravo (Garhwal)",
+        "disasterId": "d1-uttarakhand-flood",
+        "disasterName": "Uttarakhand Flash Flood Zone",
+        "sectorId": "Sector 04",
+        "sectorName": "Sector 04",
+        "previousStatus": "Available",
+        "newStatus": "On Mission",
+        "action": "ASSIGNED",
+        "source": "Operator Dispatch Console"
+      },
+      "payload": {
+        "assignmentId": "assign-1787598556850",
+        "teamId": "t2",
+        "teamName": "SDRF Team Bravo (Garhwal)",
+        "disasterId": "d1-uttarakhand-flood",
+        "disasterName": "Uttarakhand Flash Flood Zone",
+        "sectorId": "Sector 04",
+        "sectorName": "Sector 04",
+        "previousStatus": "Available",
+        "newStatus": "On Mission",
+        "action": "ASSIGNED",
+        "source": "Operator Dispatch Console"
+      },
+      "createdAt": "2026-08-24T19:09:16.852Z",
+      "timestamp": "12:39 AM IST",
+      "acknowledged": false
+    },
+    {
+      "id": "evt-1787597389657-pu0jf",
+      "eventType": "RESCUE_TEAM_DEASSIGNED",
+      "category": "RESCUE",
+      "severity": "Medium",
+      "title": "Rescue Team De-assigned: SDRF Team Bravo (Garhwal)",
+      "description": "SDRF Team Bravo (Garhwal) de-assigned from Sector 08 (Odisha Coastal Cyclone Impact)",
+      "entityType": "RescueTeam",
+      "entityId": "t2",
+      "metadata": {
+        "teamId": "t2",
+        "teamName": "SDRF Team Bravo (Garhwal)",
+        "disasterId": "d2-odisha-cyclone",
+        "disasterName": "Odisha Coastal Cyclone Impact",
+        "sectorId": "Sector 08",
+        "sectorName": "Sector 08",
+        "previousStatus": "On Mission",
+        "newStatus": "Available",
+        "action": "DEASSIGNED",
+        "source": "Operator Dispatch Console"
+      },
+      "payload": {
+        "teamId": "t2",
+        "teamName": "SDRF Team Bravo (Garhwal)",
+        "disasterId": "d2-odisha-cyclone",
+        "disasterName": "Odisha Coastal Cyclone Impact",
+        "sectorId": "Sector 08",
+        "sectorName": "Sector 08",
+        "previousStatus": "On Mission",
+        "newStatus": "Available",
+        "action": "DEASSIGNED",
+        "source": "Operator Dispatch Console"
+      },
+      "createdAt": "2026-08-24T18:49:49.657Z",
+      "timestamp": "12:19 AM IST",
+      "acknowledged": false
+    },
+    {
+      "id": "evt-1787597389640-9oupa",
+      "eventType": "RESCUE_TEAM_ASSIGNED",
+      "category": "RESCUE",
+      "severity": "Info",
+      "title": "Rescue Team Assigned: SDRF Team Bravo (Garhwal)",
+      "description": "SDRF Team Bravo (Garhwal) assigned to Sector 08 (Odisha Coastal Cyclone Impact)",
+      "entityType": "RescueTeam",
+      "entityId": "t2",
+      "metadata": {
+        "assignmentId": "assign-1787597389640",
+        "teamId": "t2",
+        "teamName": "SDRF Team Bravo (Garhwal)",
+        "disasterId": "d2-odisha-cyclone",
+        "disasterName": "Odisha Coastal Cyclone Impact",
+        "sectorId": "Sector 08",
+        "sectorName": "Sector 08",
+        "previousStatus": "Available",
+        "newStatus": "On Mission",
+        "action": "ASSIGNED",
+        "source": "Operator Dispatch Console"
+      },
+      "payload": {
+        "assignmentId": "assign-1787597389640",
+        "teamId": "t2",
+        "teamName": "SDRF Team Bravo (Garhwal)",
+        "disasterId": "d2-odisha-cyclone",
+        "disasterName": "Odisha Coastal Cyclone Impact",
+        "sectorId": "Sector 08",
+        "sectorName": "Sector 08",
+        "previousStatus": "Available",
+        "newStatus": "On Mission",
+        "action": "ASSIGNED",
+        "source": "Operator Dispatch Console"
+      },
+      "createdAt": "2026-08-24T18:49:49.640Z",
+      "timestamp": "12:19 AM IST",
+      "acknowledged": false
+    },
+    {
+      "id": "evt-1787597351355-ht933",
+      "eventType": "RESCUE_TEAM_DEASSIGNED",
+      "category": "RESCUE",
+      "severity": "Medium",
+      "title": "Rescue Team De-assigned: NDRF Team Alpha (Uttarakhand)",
+      "description": "NDRF Team Alpha (Uttarakhand) de-assigned from Sector 04 (Uttarakhand Flash Flood Zone)",
+      "entityType": "RescueTeam",
+      "entityId": "t1",
+      "metadata": {
+        "teamId": "t1",
+        "teamName": "NDRF Team Alpha (Uttarakhand)",
+        "disasterId": "d1-uttarakhand-flood",
+        "disasterName": "Uttarakhand Flash Flood Zone",
+        "sectorId": "Sector 04",
+        "sectorName": "Sector 04",
+        "previousStatus": "On Mission",
+        "newStatus": "Available",
+        "action": "DEASSIGNED",
+        "source": "Operator Dispatch Console"
+      },
+      "payload": {
+        "teamId": "t1",
+        "teamName": "NDRF Team Alpha (Uttarakhand)",
+        "disasterId": "d1-uttarakhand-flood",
+        "disasterName": "Uttarakhand Flash Flood Zone",
+        "sectorId": "Sector 04",
+        "sectorName": "Sector 04",
+        "previousStatus": "On Mission",
+        "newStatus": "Available",
+        "action": "DEASSIGNED",
+        "source": "Operator Dispatch Console"
+      },
+      "createdAt": "2026-08-24T18:49:11.355Z",
+      "timestamp": "12:19 AM IST",
+      "acknowledged": false
+    },
+    {
+      "id": "evt-1787597351328-a0b30",
+      "eventType": "RESCUE_TEAM_ASSIGNED",
+      "category": "RESCUE",
+      "severity": "Info",
+      "title": "Rescue Team Assigned: NDRF Team Alpha (Uttarakhand)",
+      "description": "NDRF Team Alpha (Uttarakhand) assigned to Sector 04 (Uttarakhand Flash Flood Zone)",
+      "entityType": "RescueTeam",
+      "entityId": "t1",
+      "metadata": {
+        "assignmentId": "assign-1787597351327",
+        "teamId": "t1",
+        "teamName": "NDRF Team Alpha (Uttarakhand)",
+        "disasterId": "d1-uttarakhand-flood",
+        "disasterName": "Uttarakhand Flash Flood Zone",
+        "sectorId": "Sector 04",
+        "sectorName": "Sector 04",
+        "previousStatus": "Available",
+        "newStatus": "On Mission",
+        "action": "ASSIGNED",
+        "source": "Operator Dispatch Console"
+      },
+      "payload": {
+        "assignmentId": "assign-1787597351327",
+        "teamId": "t1",
+        "teamName": "NDRF Team Alpha (Uttarakhand)",
+        "disasterId": "d1-uttarakhand-flood",
+        "disasterName": "Uttarakhand Flash Flood Zone",
+        "sectorId": "Sector 04",
+        "sectorName": "Sector 04",
+        "previousStatus": "Available",
+        "newStatus": "On Mission",
+        "action": "ASSIGNED",
+        "source": "Operator Dispatch Console"
+      },
+      "createdAt": "2026-08-24T18:49:11.328Z",
+      "timestamp": "12:19 AM IST",
+      "acknowledged": false
+    },
+    {
+      "id": "0a39d9ef-d86a-402b-8629-a3bc172abbe2",
+      "eventType": "OFFLINE_REGION_SYNCED",
+      "payload": {
+        "regionId": "reg-north-in",
+        "name": "Northern India"
+      },
+      "createdAt": "2026-08-24T17:09:03.639Z"
+    },
+    {
+      "id": "267c2bc3-66ce-4e2b-a7bd-4e60bf5638f2",
+      "eventType": "TEAM_DEASSIGNED",
+      "payload": {
+        "teamId": "t4",
+        "teamName": "Gujarat Quick Response Delta",
+        "prevDisasterId": "d3-gujarat-landslide"
+      },
+      "createdAt": "2026-08-24T16:39:11.514Z"
+    },
+    {
+      "id": "74ebe26e-31ee-47b1-8c54-3ecb5c6ee9ea",
+      "eventType": "TEAM_ASSIGNED",
+      "payload": {
+        "assignmentId": "assign-1787589551492",
+        "teamId": "t4",
+        "teamName": "Gujarat Quick Response Delta",
+        "disasterId": "d3-gujarat-landslide",
+        "disasterName": "Gujarat Hill Slope Landslide Risk"
+      },
+      "createdAt": "2026-08-24T16:39:11.496Z"
+    },
+    {
+      "id": "f05ad0ce-460d-4bc7-aee3-aecd49dca524",
+      "eventType": "TEAM_DEASSIGNED",
+      "payload": {
+        "teamId": "t4",
+        "teamName": "Gujarat Quick Response Delta",
+        "prevDisasterId": "d3-gujarat-landslide"
+      },
+      "createdAt": "2026-08-24T16:24:28.858Z"
+    },
+    {
+      "id": "431d1ae5-c646-4034-9c79-7526459a763f",
+      "eventType": "TEAM_ASSIGNED",
+      "payload": {
+        "assignmentId": "assign-1787588668839",
+        "teamId": "t4",
+        "teamName": "Gujarat Quick Response Delta",
+        "disasterId": "d3-gujarat-landslide",
+        "disasterName": "Gujarat Hill Slope Landslide Risk"
+      },
+      "createdAt": "2026-08-24T16:24:28.841Z"
+    },
+    {
+      "id": "b764edfd-1157-4c70-a73d-6564b56dd0c8",
+      "eventType": "TEAM_DEASSIGNED",
+      "payload": {
+        "teamId": "t3",
+        "teamName": "ODRAF Coastal Taskforce Charlie",
+        "prevDisasterId": "d2-odisha-cyclone"
+      },
+      "createdAt": "2026-08-24T15:53:49.491Z"
+    },
+    {
+      "id": "4e81c2f0-a697-4077-b95b-345f3c254c63",
+      "eventType": "TEAM_DEASSIGNED",
+      "payload": {
+        "teamId": "t4",
+        "teamName": "Gujarat Quick Response Delta",
+        "prevDisasterId": "d3-gujarat-landslide"
+      },
+      "createdAt": "2026-08-24T15:50:30.425Z"
+    },
+    {
+      "id": "8a6abd36-4065-4f8a-94f9-8166ddbe7522",
+      "eventType": "TEAM_ASSIGNED",
+      "payload": {
+        "assignmentId": "assign-1787586630414",
+        "teamId": "t4",
+        "teamName": "Gujarat Quick Response Delta",
+        "disasterId": "d3-gujarat-landslide",
+        "disasterName": "Gujarat Hill Slope Landslide Risk"
+      },
+      "createdAt": "2026-08-24T15:50:30.415Z"
+    },
+    {
+      "id": "6af78f6a-63f9-47c4-b0e1-7e7a22e103df",
+      "eventType": "SYSTEM_INITIALIZED",
+      "payload": {
+        "disastersCount": 5,
+        "rescueTeamsCount": 4,
+        "notificationsCount": 5,
+        "seedTime": "2026-08-24T15:49:56.921Z"
+      },
+      "createdAt": "2026-08-24T15:49:56.921Z"
+    },
+    {
+      "id": "ef029fce-90eb-40c3-a8f1-a60220a29ff1",
+      "eventType": "TEAM_ASSIGNED",
+      "payload": {
+        "assignmentId": "assign-1787584899082",
+        "teamId": "t4",
+        "teamName": "Gujarat Quick Response Delta",
+        "disasterId": "d1-uttarakhand-flood",
+        "disasterName": "Uttarakhand Flash Flood Zone"
+      },
+      "createdAt": "2026-08-24T15:21:39.083Z"
+    },
+    {
+      "id": "62f49a37-3519-4548-8eb4-9e219edd4fb4",
+      "eventType": "OFFLINE_REGION_SYNCED",
+      "payload": {
+        "regionId": "reg-north-in",
+        "name": "Northern India"
+      },
+      "createdAt": "2026-08-24T15:17:02.042Z"
+    },
+    {
+      "id": "88f5a315-22cc-4c20-87bf-8fabba25dd67",
+      "eventType": "OFFLINE_REGION_SYNCED",
+      "payload": {
+        "regionId": "reg-north-in",
+        "name": "Northern India"
+      },
+      "createdAt": "2026-08-24T15:17:01.066Z"
+    },
+    {
+      "id": "916276fc-2b98-48b4-ba35-6d04dd467727",
+      "eventType": "SETTINGS_UPDATED",
+      "payload": {
+        "refreshInterval": "1m",
+        "criticalAlerts": true,
+        "highRiskAlerts": true
+      },
+      "createdAt": "2026-08-24T15:12:49.594Z"
+    },
+    {
+      "id": "2b2a11ac-2a9b-40ff-a195-33aabfbcd1c8",
+      "eventType": "TEAM_ASSIGNED",
+      "payload": {
+        "assignmentId": "assign-1787584369537",
+        "teamId": "t2",
+        "teamName": "SDRF Team Bravo (Garhwal)",
+        "disasterId": "d1-uttarakhand-flood",
+        "disasterName": "Uttarakhand Flash Flood Zone"
+      },
+      "createdAt": "2026-08-24T15:12:49.537Z"
+    },
+    {
+      "id": "c60aeca7-71a4-4155-85f9-5b7ba79605e8",
+      "eventType": "SETTINGS_UPDATED",
+      "payload": {
+        "refreshInterval": "1m",
+        "criticalAlerts": true
+      },
+      "createdAt": "2026-08-24T15:11:47.491Z"
+    },
+    {
+      "id": "d1e02fa9-f8b7-4fe6-b56b-21c3aee29639",
+      "eventType": "TEAM_ASSIGNED",
+      "payload": {
+        "assignmentId": "assign-1787584283237",
+        "teamId": "t1",
+        "teamName": "NDRF Team Alpha (Uttarakhand)",
+        "disasterId": "d1-uttarakhand-flood",
+        "disasterName": "Uttarakhand Flash Flood Zone"
+      },
+      "createdAt": "2026-08-24T15:11:23.238Z"
+    },
+    {
+      "id": "fe81f990-3181-47e0-b36a-1c46d1ade7ba",
+      "eventType": "SYSTEM_INITIALIZED",
+      "payload": {
+        "disastersCount": 5,
+        "rescueTeamsCount": 4,
+        "seedTime": "2026-08-24T15:10:56.881Z"
+      },
+      "createdAt": "2026-08-24T15:10:56.881Z"
+    }
+  ]
+}

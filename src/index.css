@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-text-primary font-sans antialiased;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Desktop dashboard takes exactly 100vh */
+  }
+}
+
+@layer components {
+  .card-panel {
+    @apply bg-surface border border-border rounded-xl p-4 flex flex-col relative overflow-hidden;
+  }
+  
+  .glass-effect {
+    @apply bg-surface/80 backdrop-blur-md border border-border/50;
+  }
+  
+  .btn-primary {
+    @apply bg-primary-600 hover:bg-primary-500 text-white rounded-lg px-4 py-2 transition-colors font-medium text-sm flex items-center justify-center gap-2;
+  }
+  
+  .btn-outline {
+    @apply bg-transparent hover:bg-surfaceHighlight text-primary-500 border border-primary-600 rounded-lg px-4 py-2 transition-colors font-medium text-sm flex items-center justify-center gap-2;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #1E2D4A;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334a75;
+}
+
+/* Leaflet Map Overrides */
+.leaflet-container {
+  background: #0B1423 !important;
+  font-family: 'Inter', sans-serif;
+}
+.leaflet-control-zoom {
+  border: 1px solid #1E2D4A !important;
+  background: rgba(11, 20, 35, 0.9) !important;
+  border-radius: 8px !important;
+  overflow: hidden;
+  backdrop-filter: blur(4px);
+}
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+  background-color: transparent !important;
+  color: #fff !important;
+  border-bottom: 1px solid #1E2D4A !important;
+}
+.leaflet-control-zoom-in:hover,
+.leaflet-control-zoom-out:hover {
+  background-color: #121F36 !important;
+}
+.leaflet-popup-content-wrapper {
+  background-color: #0B1423 !important;
+  color: #fff !important;
+  border: 1px solid #1E2D4A;
+  border-radius: 8px !important;
+  padding: 0 !important;
+}
+.leaflet-popup-tip {
+  background: #0B1423 !important;
+  border: 1px solid #1E2D4A;
+}
+
+/* Pulse Animation for Markers */
+@keyframes pulse-ring {
+  0% { transform: scale(0.5); opacity: 0; }
+  50% { opacity: 0.5; }
+  100% { transform: scale(2.5); opacity: 0; }
+}
+@keyframes pulse-dot {
+  0% { transform: scale(0.8); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(0.8); }
+}
