@@ -58,11 +58,32 @@ class DatabaseService {
   };
 
   constructor() {
+    this.storeFile = this.resolveStoreFilePath();
     this.loadFromDisk();
   }
 
+  private resolveStoreFilePath(): string {
+    const candidatePaths = [
+      path.resolve(__dirname, '../../data_store.json'),
+      path.resolve(process.cwd(), 'backend/data_store.json'),
+      path.resolve(process.cwd(), 'data_store.json')
+    ];
+    for (const p of candidatePaths) {
+      if (fs.existsSync(p)) return p;
+    }
+    return candidatePaths[0];
+  }
+
   public async init(): Promise<void> {
-    const dbUrl = process.env.DATABASE_URL || 'postgresql://postgres:postgres@localhost:5432/raksha';
+    const isProduction = process.env.NODE_ENV === 'production';
+    const dbUrl = process.env.DATABASE_URL || (isProduction ? '' : 'postgresql://postgres:postgres@localhost:5432/raksha');
+    
+    if (!dbUrl) {
+      console.log('ℹ️ No DATABASE_URL provided. Operating in resilient local state store mode.');
+      this.isPgConnected = false;
+      return;
+    }
+
     try {
       this.pool = new pg.Pool({
         connectionString: dbUrl,
@@ -74,8 +95,14 @@ class DatabaseService {
       this.isPgConnected = true;
       console.log('✅ Connected to PostgreSQL database at', dbUrl.replace(/:[^:@]+@/, ':***@'));
       
-      const schemaPath = path.join(__dirname, 'schema.sql');
-      if (fs.existsSync(schemaPath)) {
+      const possibleSchemaPaths = [
+        path.join(__dirname, 'schema.sql'),
+        path.join(__dirname, '../../src/db/schema.sql'),
+        path.resolve(process.cwd(), 'backend/src/db/schema.sql'),
+        path.resolve(process.cwd(), 'src/db/schema.sql')
+      ];
+      const schemaPath = possibleSchemaPaths.find(p => fs.existsSync(p));
+      if (schemaPath) {
         const schemaSql = fs.readFileSync(schemaPath, 'utf-8');
         try {
           await client.query(schemaSql);

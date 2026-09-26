@@ -172,7 +172,11 @@ export const AppProvider = ({ children }: { children: ReactNode }) => {
     
     let eventSource: EventSource | null = null;
     try {
-      eventSource = new EventSource('http://localhost:4000/api/events/stream');
+      const streamEndpoint = '/api/events/stream';
+      const sseUrl = import.meta.env.VITE_API_URL
+        ? `${import.meta.env.VITE_API_URL.replace(/\/api\/?$/, '')}${streamEndpoint}`
+        : (import.meta.env.DEV ? `http://localhost:4000${streamEndpoint}` : streamEndpoint);
+      eventSource = new EventSource(sseUrl);
       eventSource.onmessage = (event) => {
         try {
           const parsed = JSON.parse(event.data);

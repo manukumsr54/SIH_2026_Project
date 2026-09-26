@@ -1,7 +1,13 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
+import path from 'path';
+import fs from 'fs';
+import { fileURLToPath } from 'url';
 import { db } from './db/database.js';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 import { seedDatabase } from './db/seed.js';
 import { dashboardRouter } from './routes/dashboard.js';
 import { disastersRouter } from './routes/disasters.js';
@@ -132,6 +138,27 @@ app.get('/api/docs', (req, res) => {
   });
 });
 
+// Static frontend files & SPA client routing fallback
+const possibleDistPaths = [
+  path.resolve(__dirname, '../../dist'),
+  path.resolve(process.cwd(), 'dist'),
+  path.resolve(process.cwd(), '../dist')
+];
+const frontendDistPath = possibleDistPaths.find(p => fs.existsSync(path.join(p, 'index.html')));
+
+if (frontendDistPath) {
+  console.log(`📦 Serving React frontend static build from ${frontendDistPath}`);
+  app.use(express.static(frontendDistPath));
+
+  app.get('*', (req, res, next) => {
+    // If request is for an unhandled API or health route, delegate to 404 handler
+    if (req.path.startsWith('/api') || req.path.startsWith('/health') || req.path.startsWith('/ready')) {
+      return next();
+    }
+    res.sendFile(path.join(frontendDistPath, 'index.html'));
+  });
+}
+
 // Global 404 Handler
 app.use((req, res) => {
   res.status(404).json({
@@ -185,10 +212,12 @@ async function start() {
     await seedDatabase();
   }
   
-  app.listen(PORT, () => {
-    console.log(`🚀 RAKSHA Backend running on http://localhost:${PORT}`);
-    console.log(`📡 Real-time SSE Stream: http://localhost:${PORT}/api/events/stream`);
-    console.log(`📋 OpenAPI Docs: http://localhost:${PORT}/api/docs`);
+  const listenPort = Number(PORT) || 4000;
+  const HOST = '0.0.0.0';
+  app.listen(listenPort, HOST, () => {
+    console.log(`🚀 RAKSHA Server running on http://${HOST}:${listenPort}`);
+    console.log(`📡 Real-time SSE Stream: http://${HOST}:${listenPort}/api/events/stream`);
+    console.log(`📋 OpenAPI Docs: http://${HOST}:${listenPort}/api/docs`);
   });
 }
 
